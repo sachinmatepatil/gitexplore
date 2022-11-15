@@ -9,6 +9,7 @@ describe('visit store', () => {
         cy.get('#ContactUsFrm_email').type('sachin@asd.com')
         cy.get('#ContactUsFrm_enquiry').type('Hello')
         cy.get('.col-md-6 > .btn').click()
+        cy.get('.col-md-6 > .btn').click() 
     });
 });
 
